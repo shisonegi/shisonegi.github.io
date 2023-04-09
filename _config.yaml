@@ -1,14 +1,25 @@
 #commentout
 #theme: jekyll-theme-minimal
-title: Shisonegi's homepage
-description: Bookmark this to keep an eye on my project updates!
-lsi: false
-safe: true
-source: http://shisonegi.github.io
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+name: Shisonegi's blog
+title: シソネギ及びキャベツ
+lead: Bookmark this to keep an eye on my blog updates!
+desc: *desc
+items:
+- name: Pokemon
+  href: /Pokemon
+- name: Class B
+  href: /Class_B
+- name: Class C
+  href: /Class_c
+links:
+- name: MyLinks
+  href: /MyLinks
+- name: dummy
+  href: /dummy
+jumps:
+- name: twitter
+  href: twiter
+- name: download
+  href: downloads
+plugins:
+- jekyll-sitemap
